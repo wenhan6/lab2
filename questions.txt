@@ -1,0 +1,6 @@
+Q1: socket.SOCK_STREAM
+Q2: client initilize connection, server listen for connection, client 
+Q3: s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR,1) -- setting a socket option, 
+    when closing server, it can still be use, set to 1, in a little while, can connect to the port again
+Q4: client ip and the port
+Q5: 
